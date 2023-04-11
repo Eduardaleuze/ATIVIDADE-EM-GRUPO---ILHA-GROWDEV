@@ -7,9 +7,12 @@
     <title>Ilhas GROW-DEV</title>
 </head>
 <body>
-    <label>Valor a ser retirado</label>
-    <input type="number" id="numero" placeholder="digite aqui!"/>
-    <button type="button" onclick="dia()">Converter</button>
-    <p id="resultado"></p>
+    <div class="">
+        <label>Digite um valor para o saque</label>
+        <input type="number" id="valor-desejado" placeholder="digite aqui!"/>
+        <button type="button" onclick="calcularNotas()">Sacar</button>
+        <p id="resultado"></p>
+        <script src="banco.js"></script>
+    </div>
 </body>
 </html>
